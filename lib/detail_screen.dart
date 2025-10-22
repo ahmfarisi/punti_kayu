@@ -7,7 +7,6 @@ class DetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           // Judul
           Container(
@@ -25,6 +24,7 @@ class DetailScreen extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(16),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 // Icon Pertama
                 Column(
